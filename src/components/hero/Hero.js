@@ -1,5 +1,4 @@
 import React from "react"
-import {AiOutlineSearch} from "react-icons/ai"
 import "./Hero.css"
 
 const Hero = () => {
@@ -20,7 +19,7 @@ const Hero = () => {
             <label>Buy</label>
             <input type="radio" checked />
             <label>Rent</label>
-            <button type="submit"><AiOutlineSearch className="icon"/></button>
+            <button type="submit">+</button>
           </div>
         </form>
       </div>
